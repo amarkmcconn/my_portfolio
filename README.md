@@ -1,19 +1,19 @@
-# _{Application Name}_
+# _My Portfolio Website_
 
 #### By _Mark McConnell_
 
-#### _{Brief description of application}_
+#### _A fullstack responsive portfolio website using React & Sanity to showcase my projects, resume and general info about me as a programmer_
 
 ## 🖥️ Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/>
+<img src="https://pbs.twimg.com/profile_images/1135907399582199809/7uZ5d2to_400x400.jpg" width="60" height="60"/> 
 
 ## ✅ Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is a Capstone Project for Epicodus. This is a fullstack portfolio website to showcase my projects, resume and general info about me as a programmer. Furthermore, it has my contact info, skills, experiences and testimonials from other students. This project uses React for the front-end development and uses Sanity for the back-end development._
 
 ## ⚙️Setup/Installation Requirements
 
