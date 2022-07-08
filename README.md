@@ -1,13 +1,11 @@
-# _My Portfolio Website_
+# _<img src="https://fontmeme.com/permalink/220708/f1d58d6a44c485b5db80b7bcbcfc7e09.png" width="550" height="100"/>_
 
-#### By _Mark McConnell_
-
+### By _Mark McConnell_
 #### _A fullstack responsive portfolio website using React & Sanity to showcase my projects, resume and general info about me as a programmer_
 
 ## 🖥️ Technologies Used
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/><img src="https://pbs.twimg.com/profile_images/1135907399582199809/7uZ5d2to_400x400.jpg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="60" height="60"/>
-          
 
 ## ✅ Description
 
