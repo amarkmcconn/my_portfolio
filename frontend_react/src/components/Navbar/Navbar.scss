@@ -22,12 +22,12 @@
 
   /* my name logo */
   img {
-    // width: 90px;
-    height: 20px;
+    width: 180px;
+    height: 40px;
 
     @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 30px;
+      width: 250px;
+      height: 60px;
     }
   }
 }
