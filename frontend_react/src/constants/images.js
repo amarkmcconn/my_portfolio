@@ -2,6 +2,7 @@ import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
+import csharp from '../assets/csharp.svg'
 import css from '../assets/css.png';
 import figma from '../assets/figma.png';
 import flutter from '../assets/flutter.png';
@@ -13,6 +14,7 @@ import mu5 from '../assets/mu5.png';
 import node from '../assets/node.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
+import react1 from '../assets/react1.svg';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
@@ -42,6 +44,7 @@ export default {
   api,
   cpp,
   css,
+  csharp,
   figma,
   flutter,
   git,
@@ -52,6 +55,7 @@ export default {
   node,
   python,
   react,
+  react1,
   redux,
   sass,
   typescript,
