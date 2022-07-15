@@ -4,7 +4,7 @@ import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import csharp from '../assets/csharp.svg'
 import css from '../assets/css.png';
-import figma from '../assets/figma.png';
+
 
 import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
@@ -15,7 +15,7 @@ import node from '../assets/node.png';
 
 import react from '../assets/react.png';
 import react1 from '../assets/react1.svg';
-import redux from '../assets/redux.png';
+
 import sass from '../assets/sass.png';
 
 import communicator from '../assets/communicator.png'
@@ -45,7 +45,6 @@ export default {
   css,
   csharp,
   design,
-  figma,
   fullstack,
   git,
   graphql,
@@ -55,7 +54,6 @@ export default {
   node,
   react,
   react1,
-  redux,
   sass,
   web,
   profile,

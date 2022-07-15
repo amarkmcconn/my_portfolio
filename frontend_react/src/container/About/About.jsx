@@ -1,17 +1,29 @@
 import React, { useState, useEffect } from 'react';
 
-import { images} from '../../constants';
+// import { images} from '../../constants';
 import { motion } from 'framer-motion';
 import './About.scss';
+import { urlFor, client } from '../../client';
 
-const abouts = [
-  {title: 'Full Stack Developer', description: 'My current languages are React, C#, and Javascript. I am currently exploring Next.js, Vue.js, and Firebase.', imgUrl: images.fullstack},
-  {title: 'Web Designer', description: 'I am proficient with SCSS, CSS, HTML, and Framer-Motion. I enjoy creating what the end customer will see and interact with.', imgUrl: images.design},
-  {title: 'Communicator & Team Player', description: 'I am an effective listener and facilitator of involvement and I am champion of conflict resolution. ', imgUrl: images.communicator},
-  {title: 'Problem Solver', description: 'I enjoy taking on complex tasks and finding solutions to problems and bugs. I enjoy the challenge of putting myself in uncomfortable situations.', imgUrl: images.problem}
-]
+// Using Sanity to import about me sections 
+// const abouts = [
+//   {title: 'Full Stack Developer', description: 'My current languages are React, C#, and Javascript. I am currently exploring Next.js, Vue.js, and Firebase.', imgUrl: images.fullstack},
+//   {title: 'Web Designer', description: 'I am proficient with SCSS, CSS, HTML, and Framer-Motion. I enjoy creating what the end customer will see and interact with.', imgUrl: images.design},
+//   {title: 'Communicator & Team Player', description: 'I am an effective listener and facilitator of involvement and I am champion of conflict resolution. ', imgUrl: images.communicator},
+//   {title: 'Problem Solver', description: 'I enjoy taking on complex tasks and finding solutions to problems and bugs. I enjoy the challenge of putting myself in uncomfortable situations.', imgUrl: images.problem}
+// ]
 
 const About = () => {
+  const [abouts, setAbouts] = useState([]);
+
+  useEffect(() => {
+    const query = '*[_type == "abouts"]'
+    client.fetch(query)
+      .then((data) => {setAbouts(data);
+      })
+  }, []);
+  
+
   return (
     <>
       <h2 className="head-text"> About <span>Me</span></h2>
@@ -30,7 +42,7 @@ const About = () => {
             className="app__profile-item"
             key={about.title + index}
           >
-            <img src={about.imgUrl} alt={about.title}/>
+            <img src={urlFor(about.imgUrl)} alt={about.title}/>
             <h2 className="bold-text" style={{ marginTop: 20}}>{about.title}</h2>
             <p className="p-text" style={{ marginTop: 10}}>{about.description}</p>
           </motion.div>
