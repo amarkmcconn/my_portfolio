@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { AppWrap } from '../../wropper';
 // import { images} from '../../constants';
 import { motion } from 'framer-motion';
 import './About.scss';
@@ -52,4 +52,4 @@ const About = () => {
   );
 };
 
-export default About
+export default AppWrap(About, 'about')

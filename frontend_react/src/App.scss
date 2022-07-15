@@ -110,7 +110,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--white-color);
+    background-color: rgba(107, 147, 46, 0.75);
     margin: 0.25rem 0;
     border: 1px solid var(--lightGray-color);
 
@@ -123,7 +123,7 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: #313bac;
     }
 
     &:hover {
