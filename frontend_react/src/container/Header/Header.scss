@@ -1,6 +1,6 @@
 #home {
   position: relative;
-  background: url('../../assets/bgIMG.png');
+  background: url('../../assets/—Pngtree—business\ data\ blue\ gradient\ abstract_7150719.png');
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -55,16 +55,18 @@
   flex-direction: column;
 
   .badge-cmp, .tag-cmp {
+    background-color: var(--white-color);
     padding: 1rem 2rem;
     border: var(--white-color);
     border-radius: 15px;
     flex-direction: row;
     width: auto;
-    box-shadow: 0 0 20px rgba(0,0,0, 0.50);
+    box-shadow: 0 0 20px rgba(0,0,0, 0.80);
   }
   .tag-cmp {
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
     p {
       width: 100%;

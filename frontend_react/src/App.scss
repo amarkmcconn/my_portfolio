@@ -1,6 +1,6 @@
 
 .app {
-  background-color: var(--blue-color);
+  background-color: var(--white-color);
   font-family: var(--font-base);
 }
 
@@ -75,7 +75,7 @@
 .p-text {
   font-size: 1rem;
   text-align: left;
-  color: var(--gray-color);
+  color: var(--black-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
