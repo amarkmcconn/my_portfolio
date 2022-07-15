@@ -18,11 +18,11 @@ import react1 from '../assets/react1.svg';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 
-
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import communicator from '../assets/communicator.png'
+import design from '../assets/design.png';
+import fullstack from '../assets/fullstack.png';
+import web from '../assets/web-developers-3575830-2997691.mp4';
+import problem from '../assets/problem.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -40,10 +40,13 @@ export default {
   email,
   mobile,
   api,
+  communicator,
   cpp,
   css,
   csharp,
+  design,
   figma,
+  fullstack,
   git,
   graphql,
   html,
@@ -54,11 +57,9 @@ export default {
   react1,
   redux,
   sass,
-  about01,
-  about02,
-  about03,
-  about04,
+  web,
   profile,
+  problem,
   circle,
   logo,
   logo1,
