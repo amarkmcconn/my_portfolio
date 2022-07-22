@@ -158,7 +158,7 @@
 
 .app__header-img {
   flex: 1;
-  height: 100%;
+  
 
   display: flex;
   justify-content: flex-end;
@@ -166,8 +166,8 @@
   position: relative;
 
   img {
-    height: 800px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     object-fit: contain;
     z-index: 1;
     margin-left: 1em;
