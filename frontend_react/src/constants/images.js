@@ -4,7 +4,7 @@ import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import csharp from '../assets/csharp.svg'
 import css from '../assets/css.png';
-
+import resume from '../assets/resume.png';
 
 import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
@@ -54,6 +54,7 @@ export default {
   node,
   react,
   react1,
+  resume,
   sass,
   web,
   profile,

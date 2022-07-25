@@ -38,7 +38,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className='head-text'>Take a coffee & chat with me</h2>
+      <h2 className='head-text'>Contact Me</h2>
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <img src={images.email} alt="email" />
@@ -85,7 +85,7 @@ const Footer = () => {
         <button 
           className='p-text'
           type='button' 
-          onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}Send Message</button>
+          onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
       </div>
       : <div>
           <h3 className='head-text'>Thank you for getting in touch!</h3>
