@@ -110,7 +110,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: rgba(107, 147, 46, 0.75);
+    background-color: rgba(110, 110, 110, 0.75);
     margin: 0.25rem 0;
     border: 1px solid var(--lightGray-color);
 
@@ -178,12 +178,11 @@
 }
 
 @media screen and (max-width: 500px) {
-  .app__navigation,
-  .app__social {
+  .app__navigation, .app__social {
     display: none;
   }
 
-  .copyright {
+  #copyright {
     padding: 2rem;
   }
 }
