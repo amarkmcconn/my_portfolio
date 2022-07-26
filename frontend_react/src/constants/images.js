@@ -5,6 +5,7 @@ import cpp from '../assets/cpp.png';
 import csharp from '../assets/csharp.svg'
 import css from '../assets/css.png';
 import resume from '../assets/resume.png';
+import linkedin from '../assets/linkedin.png';
 
 import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
@@ -50,6 +51,7 @@ export default {
   graphql,
   html,
   javascript,
+  linkedin,
   mu5,
   node,
   react,
