@@ -63,19 +63,19 @@
     border-radius: 15px;
     flex-direction: row;
     width: auto;
-    box-shadow: 0 0 20px rgba(0,0,0, 0.80);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     
   }
   .tag-cmp {
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 1rem;
-
+  
     p {
       width: 100%;
       text-transform: uppercase;
       text-align: left;
-      font-weight: 600;
+      font-weight: 600;;
     }
   }
 
@@ -99,7 +99,7 @@
   justify-content: space-evenly;
   align-items: flex-start;
   height: 100%;
-  margin-left: 1rem;
+  margin-left: 0rem;
 
   div {
     width: 100px;
@@ -162,17 +162,22 @@
   
 
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   position: relative;
 
   img {
-    height: 100%;
-    width: 100%;
+    height: 55%;
+    width: 55%;
     object-fit: contain;
     z-index: 1;
-    margin-left: 1rem;
-  }
+    margin-left: -2rem;
+    
+    @media screen and (max-width: 450px) {
+    height: 100%;
+    width: 100%;
+    }
+  } 
 
   .overlay_circle {
     position: absolute;
@@ -184,4 +189,3 @@
     height: 90%;
   }
 }
-
