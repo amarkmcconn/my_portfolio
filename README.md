@@ -23,6 +23,7 @@ _This is a Capstone Project for Epicodus. This is a responsive fullstack portfol
       This will open sanity studio in order for you to manage your content
 3. ### `sanity manage`
       To open the project settings in a browser
+4. ### `more sanity commands can be found below`
 
 ### In the `frontend_react directory`, you can run:
 1. ### `npm install`
@@ -59,6 +60,16 @@ _This is a Capstone Project for Epicodus. This is a responsive fullstack portfol
       Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
       You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## 🚀 Deployment
+1. Sign up for a free account on <app.netlify.com>
+2. Once your account has been setup, click on the Sites option
+3. Open your project from file explorer and find your build folder
+4. Drag and drop your build folder into the sites section
+5. Then click on Domain settings and go to domains and click edit site name, you will be able to enter a custom domain name that has .netlify.app after it. You will also have options to purchase a domain via this website.
+6. If your domain has been purchased via another site you always delegate your domain to Netlify.
+7. Documentation can be found here: <https://docs.netlify.com/domains-https/netlify-dns/delegate-to-netlify/>
+
 ## Known 🐛 Bugs
 
 * _No Known Issues_
@@ -70,7 +81,6 @@ _This is a Capstone Project for Epicodus. This is a responsive fullstack portfol
 _If you run into any issues or have questions, ideas, or concerns;  please email me: at mark.programming1@gmail.com_
 
 Copyright (C) 2022 Mark McConnell
-
 
 
 # Sanity Clean Content Studio
