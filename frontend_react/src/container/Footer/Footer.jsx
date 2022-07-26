@@ -40,6 +40,10 @@ const Footer = () => {
     <>
       <h2 className='head-text'>Contact Me</h2>
       <div className='app__footer-cards'>
+          <div className='app__footer-card'>
+          <img src={images.linkedin} alt="email" />
+          <a href="https://www.linkedin.com/in/mark-mcconnell1/" className='p-text'>Linkedin Profile</a>
+        </div>
         <div className='app__footer-card'>
           <img src={images.email} alt="email" />
           <a href="mailto:mark.programming1@gmail.com" className='p-text'>mark.programming1@gmail.com</a>
