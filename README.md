@@ -3,7 +3,7 @@
 ### By _Mark McConnell_
 
 #### _A responsive fullstack portfolio website using React & Sanity to showcase my projects, skills, experiences and general info about me as a programmer. <https://marksprogramming.com/>_
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9fcc802b-3885-4250-b95a-d690ed810350/deploy-status)](https://app.netlify.com/sites/marksportfolio1/deploys)
 ## 🖥️ Technologies Used
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/><img src="https://pbs.twimg.com/profile_images/1135907399582199809/7uZ5d2to_400x400.jpg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="60" height="60"/>
@@ -62,7 +62,7 @@ _This is a Capstone Project for Epicodus. This is a responsive fullstack portfol
       You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## 🚀 Deployment
-1. Sign up for a free account on <app.netlify.com>
+1. Sign up for a free account on <https://app.netlify.com/>
 2. Once your account has been setup, click on the Sites option
 3. Open your project from file explorer and find your build folder
 4. Drag and drop your build folder into the sites section
