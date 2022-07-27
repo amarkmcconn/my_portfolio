@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { TbWorld } from "react-icons/tb";
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wropper';
@@ -94,10 +94,10 @@ const Work = () => {
 
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
-              <p className="p-text" >{work.description}</p>
+              <p className="p-text3" >{work.description}</p>
 
               <div className="app__work-tag app__flex">
-                <p className="p-text" style={{ margin: 1}}>{work.tags[0]}</p>
+                <p className="p-text2" style={{ margin: 1}}>{work.tags[0]}</p>
               </div>
             </div>
           </div>
