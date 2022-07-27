@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import { TbWorld } from "react-icons/tb";
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wropper';
 import { urlFor, client } from '../../client';
@@ -75,7 +76,7 @@ const Work = () => {
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
-                    <AiFillEye />
+                    <TbWorld />
                   </motion.div>
                 </a>
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
