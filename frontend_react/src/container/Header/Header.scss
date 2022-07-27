@@ -168,11 +168,16 @@
   position: relative;
 
   img {
-    height: 55%;
-    width: 55%;
+    height: 48%;
+    width: 48%;
     object-fit: contain;
     z-index: 1;
     margin-left: -2rem;
+
+    @media screen and (min-width: 2000px) {
+      height: 56.5%;
+      width: 56.5%;
+    }
     
     @media screen and (max-width: 450px) {
     height: 100%;
