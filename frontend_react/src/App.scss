@@ -79,7 +79,11 @@
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
+  }
+
+  @media screen and (max-width: 1920px) {
+    font-size: .8rem;
   }
 }
 
@@ -90,7 +94,7 @@
   text-align: left;
 
   @media screen and (min-width: 2000px) {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   @media screen and (max-width: 450px) {
