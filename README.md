@@ -6,7 +6,7 @@
 
 ## 🖥️ Technologies Used
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="60" height="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/> <img src="https://pbs.twimg.com/profile_images/1135907399582199809/7uZ5d2to_400x400.jpg" width="60" height="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="60" height="60"/> [![Netlify Status](https://api.netlify.com/api/v1/badges/9fcc802b-3885-4250-b95a-d690ed810350/deploy-status)](https://app.netlify.com/sites/marksportfolio1/deploys)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="60" height="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/> <img src="https://pbs.twimg.com/profile_images/1135907399582199809/7uZ5d2to_400x400.jpg" width="60" height="60"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="60" height="60"/> ![Netlify Status](https://api.netlify.com/api/v1/badges/9fcc802b-3885-4250-b95a-d690ed810350/deploy-status)
 
 ## ✅ Description
 
