@@ -1,8 +1,8 @@
 # _<img src="https://fontmeme.com/permalink/220708/f1d58d6a44c485b5db80b7bcbcfc7e09.png" width="550" height="100"/>_
 
-### By _Mark McConnell_
+### By **_Mark McConnell_**
 
-#### _A responsive fullstack portfolio website using React & Sanity to showcase my projects, skills, experiences and general info about me as a programmer. <https://marksprogramming.com/>_
+#### _A fully responsive fullstack portfolio website using React & Sanity to showcase my projects, skills, experiences and general info about me as a programmer and person. <https://marksprogramming.com/>_
 
 ## 🖥️ Technologies Used
 
@@ -10,7 +10,7 @@
 
 ## ✅ Description
 
-_This is a Capstone Project for Epicodus. This is a responsive fullstack portfolio website to showcase my projects, resume and general info about me as a programmer. Furthermore, it has my contact info, skills, experiences and testimonials from other students. This project uses Sass(scss) and Framer Motion for styling. This project uses React for the front-end development and uses Sanity for the back-end and content management._
+_This is a Capstone Project for Epicodus. This is a fully responsive fullstack portfolio website to showcase my projects, resume and general info about me as a programmer and person. Furthermore, it has my contact info, skills, experiences and testimonials from other students at epicodus. This project uses Sass(scss), CSS and Framer Motion for styling. This project uses React for the front-end development and uses Sanity for the back-end content management. The application has been deployed via netlify and the domain name via hostinger has been delegated to netlify servers. Two of my projects listed are also fully deployed and that is reflected in their description._
 
 ## ⚙️Setup/Installation Requirements
 
@@ -24,11 +24,11 @@ _This is a Capstone Project for Epicodus. This is a responsive fullstack portfol
 
 2. ### `sanity start`
 
-            * This will open sanity studio in order for you to manage your content
+            This will open sanity studio in order for you to manage your content
 
 3. ### `sanity manage`
 
-            * To open the project settings in a browser
+            To open the project settings in a browser
 
 4. ### `more sanity commands can be found below`
 
@@ -40,52 +40,52 @@ _This is a Capstone Project for Epicodus. This is a responsive fullstack portfol
 
 1. ### `npm start`
 
-            Runs the app in the development mode.\
-            Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+      Runs the app in the development mode.\
+      Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-            The page will reload when you make changes.\
-            You may also see any lint errors in the console.
+      The page will reload when you make changes.\
+      You may also see any lint errors in the console.
 
 2. ### `npm test`
 
-            Launches the test runner in the interactive watch mode.\
-            See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
+      Launches the test runner in the interactive watch mode.\
+      See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
 
 3. ### `npm run build`
 
-            Builds the app for production to the `build` folder.\
-            It correctly bundles React in production mode and optimizes the build for the best performance.
+      Builds the app for production to the `build` folder.\
+      It correctly bundles React in production mode and optimizes the build for the best performance.
 
-            The build is minified and the filenames include the hashes.\
-            Your app is ready to be deployed!
+      The build is minified and the filenames include the hashes.\
+      Your app is ready to be deployed!
 
-            See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment)
+      See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 4. ### `npm run eject`
 
-            **Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-            If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command 
-            will remove the single build dependency from your project.
+      If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command 
+      will remove the single build dependency from your project.
 
-            Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) 
-            right into your project so you have full control over them. All of the commands except `eject` will still work, but 
-            they will point to the copied scripts so you can tweak them. At this point you're on your own.
+      Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) 
+      right into your project so you have full control over them. All of the commands except `eject` will still work, but 
+      they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-            You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you 
-            shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you 
-            couldn't customize it when you are ready for it.
+      You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you 
+      shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you 
+      couldn't customize it when you are ready for it.
 
 ## 🚀 Deployment
 
-      1. Sign up for a free account on <https://app.netlify.com/>
-      2. Once your account has been setup, click on the Sites option
-      3. Open your project from file explorer and find your build folder
-      4. Drag and drop your build folder into the sites section
-      5. Then click on Domain settings and go to domains and click edit site name, you will be able to enter a custom domain name 
-      that has .netlify.app after it. You will also have options to purchase a domain via this website.
-      6. If your domain has been purchased via another site you always delegate your domain to Netlify.
-      7. Documentation can be found here: <https://docs.netlify.com/domains-https/netlify-dns/delegate-to-netlify/>
+1. Sign up for a free account on <https://app.netlify.com/>
+2. Once your account has been setup, click on the Sites option
+3. Open your project from file explorer and find your build folder
+4. Drag and drop your build folder into the sites section
+5. Then click on Domain settings and go to domains and click edit site name, you will be able to enter a custom domain name 
+that has .netlify.app after it. You will also have options to purchase a domain via this website.
+6. If your domain has been purchased via another site you always delegate your domain to Netlify.
+7. Documentation can be found here: <https://docs.netlify.com/domains-https/netlify-dns/delegate-to-netlify/>
 
 ## Known 🐛 Bugs
 
