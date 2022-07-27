@@ -37,13 +37,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
   list-style: none;
 
   li {
     margin: 0 1rem;
     cursor: pointer;
-
+    font-size: 1rem;
     flex-direction: column;
 
     div {
