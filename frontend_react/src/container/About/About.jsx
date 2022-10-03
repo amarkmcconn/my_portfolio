@@ -27,7 +27,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text"> About <span>Me</span></h2>
-      <p className='p-text1'>I'm a current student at Epicodus. I bring enthusiasm and understanding of various programming languages to webpage planning and development. I have experience designing and developing sites from concept to roll out. I have a foundational grasp of various CSS and HTML options and development platforms. <br /> 
+      <p className='p-text1'>I bring enthusiasm and understanding of various programming languages to webpage planning and development. I have experience designing and developing sites from concept to roll out. I have a foundational grasp of various CSS and HTML options and development platforms. <br /> 
       <br />
       I've worked in both customer-facing and behind-the-scenes roles throughout my professional work experience. My professional work experience includes customer service, insurance, and the construction industry. I'm highly adept at cultivating teams to have a positive influence on company objectives. Once teams have been formed, I enjoy being a motivated, results-oriented leader. I push to understand my team's wants and needs. <br /> 
       <br />

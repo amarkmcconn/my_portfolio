@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wropper';
 import { client } from '../../client';
+// import {omit} from 'lodash'
 
 import './Footer.scss';
 
@@ -10,11 +11,32 @@ const Footer = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: ''})
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
-
+  
+  // const [errors, setErrors] = useState({});
+  // const [values, setValues] = useState({});
+  
   const { name, email, message} = formData;
+  
+
+  // const validate = ( event, name, value) => {
+  //   switch (name) {
+  //     case 'name':
+  //       if (value.length <= 4){
+  //         setErrors({
+  //           ...errors,
+  //           name:'Name must has atleast 4 letters'
+  //         })
+  //       } else {
+  //         let newObj = omit(errors, 'name')
+  //         setErrors(newObj)
+  //       }
+  //   }
+  // }
 
   const handleChangeInput = (e) => {
     const { name, value} = e.target;
+
+
 
     setFormData({ ...formData, [name]: value })
   }
@@ -63,7 +85,8 @@ const Footer = () => {
             placeholder='Your Name'
             name='name' 
             value={name} 
-            onChange={handleChangeInput} 
+            onChange={handleChangeInput}
+            required="required"
           />
         </div>
         <div className='app__flex'>
@@ -73,7 +96,8 @@ const Footer = () => {
             placeholder='Your Email' 
             name='email' 
             value={email} 
-            onChange={handleChangeInput} 
+            onChange={handleChangeInput}
+            required="required" 
           />
         </div>
         <div>
@@ -83,7 +107,8 @@ const Footer = () => {
             placeholder='Your Message' 
             name='message' 
             value={message} 
-            onChange={handleChangeInput} 
+            onChange={handleChangeInput}
+            required="required" 
           />  
         </div>
         <button 
