@@ -83,10 +83,10 @@ const Skills = () => {
               </motion.div>
             </motion.div>
           ))}
-          <div className='app__footer-card'>
+          {/* <div className='app__footer-card'>
           <img src={images.resume} alt="resume" />
           <a href="https://app.enhancv.com/share/5b89c5b5/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" className='p-text'>My Resume</a>
-        </div>
+        </div> */}
         </div>
       </div>
         

@@ -16,6 +16,9 @@ import node from '../assets/node.png';
 
 import react from '../assets/react.png';
 import react1 from '../assets/react1.svg';
+import typescript from '../assets/typescript-plain.svg';
+import postgresql from '../assets/postgresql-original-wordmark.svg';
+import jest from '../assets/jest-plain.svg';
 
 import sass from '../assets/sass.png';
 
@@ -56,6 +59,9 @@ export default {
   node,
   react,
   react1,
+  typescript,
+  postgresql,
+  jest,
   resume,
   sass,
   web,
